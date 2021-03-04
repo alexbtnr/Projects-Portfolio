@@ -88,6 +88,18 @@ img {
         font-size: 4rem;
         line-height: 1.2;
       }
+
+      span.animate {
+        display: inline-block;
+        transition: all 0.35s ease;
+
+        &:hover {
+          transform: scale(1.2);
+          margin: 0 0.25rem;
+          padding: 0 0.25rem;
+          opacity: 0.85;
+        }
+      }
     }
   }
 
@@ -128,6 +140,9 @@ img {
     height: 5rem;
 
     .social {
+      a {
+        color: #fff;
+      }
       .fab {
         margin-right: 1rem;
         border: 2px #fff solid;
@@ -138,11 +153,12 @@ img {
         text-align: center;
         padding: 0.5rem;
         margin-left: 1.5rem;
-        transition: all 0.25s ease-in-out;
+        transition: all 0.35s ease-in-out;
 
         &:hover {
-          background: $main-color;
+          background: $light-color;
           transform: scale(1.2);
+          color: set-text-color($light-color);
         }
       }
     }

@@ -158,6 +158,18 @@ img {
   line-height: 1.2;
 }
 
+#header-home .header-content span.animate {
+  display: inline-block;
+  transition: all 0.35s ease;
+}
+
+#header-home .header-content span.animate:hover {
+  transform: scale(1.2);
+  margin: 0 0.25rem;
+  padding: 0 0.25rem;
+  opacity: 0.85;
+}
+
 #home-b .priorities {
   margin-top: 3rem;
   display: grid;
@@ -185,6 +197,10 @@ img {
   height: 5rem;
 }
 
+#main-footer .footer-content .social a {
+  color: #fff;
+}
+
 #main-footer .footer-content .social .fab {
   margin-right: 1rem;
   border: 2px #fff solid;
@@ -195,12 +211,13 @@ img {
   text-align: center;
   padding: 0.5rem;
   margin-left: 1.5rem;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
 #main-footer .footer-content .social .fab:hover {
-  background: #ffbc00;
+  background: #f4f4f4;
   transform: scale(1.2);
+  color: #333;
 }
 
 #main-footer .footer-content .copyright {
