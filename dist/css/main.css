@@ -1,5 +1,5 @@
 .container {
-  max-width: 1280px;
+  max-width: 1100px;
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden;
@@ -43,6 +43,38 @@ input[class^="btn-"]:hover {
   text-align: center;
 }
 
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -74,7 +106,7 @@ img {
 }
 
 #logo {
-  width: 70px;
+  width: 95px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -111,7 +143,7 @@ img {
 }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/showcase5.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff;
 }
@@ -124,4 +156,16 @@ img {
 #header-home .header-content h1 {
   font-size: 4rem;
   line-height: 1.2;
+}
+
+#home-b .priorities {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+#home-b .priorities .fa-2x {
+  color: #ffbc00;
+  padding-bottom: 0.4rem;
 }

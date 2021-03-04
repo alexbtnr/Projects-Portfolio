@@ -34,7 +34,7 @@ img {
 
 // Logo
 #logo {
-  width: 70px;
+  width: 95px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -93,5 +93,22 @@ img {
 
   // Header Inner
   &-inner {
+  }
+}
+
+// Home Sections
+#home {
+  &-b {
+    .priorities {
+      margin-top: 3rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem;
+
+      .fa-2x {
+        color: $main-color;
+        padding-bottom: 0.4rem;
+      }
+    }
   }
 }
