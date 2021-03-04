@@ -169,3 +169,50 @@ img {
   color: #ffbc00;
   padding-bottom: 0.4rem;
 }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem;
+}
+
+#main-footer .footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  text-align: center;
+  height: 5rem;
+}
+
+#main-footer .footer-content .social .fab {
+  margin-right: 1rem;
+  border: 2px #fff solid;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  transition: all 0.25s ease-in-out;
+}
+
+#main-footer .footer-content .social .fab:hover {
+  background: #ffbc00;
+  transform: scale(1.2);
+}
+
+#main-footer .footer-content .copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-footer .footer-content .copyright a {
+  color: #f4f4f4;
+}
+
+#main-footer .footer-content .copyright a:hover {
+  color: #ffbc00;
+}
