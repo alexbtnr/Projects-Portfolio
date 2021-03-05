@@ -1,5 +1,6 @@
 @import "config";
 @import "utility";
+@import "item_grid";
 
 // General Styles
 * {
@@ -110,6 +111,12 @@ img {
 
 // Home Sections
 #home {
+  &-a {
+    .container {
+      padding-bottom: 2rem;
+      border-bottom: 3px solid $main-color;
+    }
+  }
   &-b {
     .priorities {
       margin-top: 3rem;
