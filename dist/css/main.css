@@ -198,6 +198,7 @@ img {
 }
 
 #main-nav {
+  z-index: 5;
   display: flex;
   justify-content: space-around;
   padding: 0.5rem;
@@ -210,6 +211,14 @@ img {
   top: 0;
   left: 0;
   transition: 0.5s;
+}
+
+#main-nav #image-link {
+  border-bottom: 0;
+}
+
+#main-nav #image-link:hover {
+  transform: rotate(180deg);
 }
 
 #main-nav ul {
