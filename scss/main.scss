@@ -48,9 +48,10 @@ img {
   justify-content: space-around;
   // padding-top: 1rem;
   padding: 0.5rem;
-  background: $dark-color;
+  // background: $dark-color;
+  background: rgba($color: $dark-color, $alpha: 0.8);
   color: #fff;
-  opacity: 0.8;
+  // opacity: 0.8;
   // width: $website-width;
   width: 100%;
   height: 57px;
@@ -110,6 +111,16 @@ img {
 
     &.current {
       border-color: $main-color;
+    }
+  }
+
+  .burger {
+    display: none;
+    div {
+      height: 3px;
+      width: 25px;
+      background: #fff;
+      margin: 5px;
     }
   }
 }
@@ -270,6 +281,7 @@ img {
   }
 
   &-contact2 {
+    display: none;
     .contact-info {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -346,3 +358,6 @@ img {
     }
   }
 }
+
+// Import Media Queries
+@import "media";
