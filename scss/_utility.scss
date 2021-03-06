@@ -113,3 +113,6 @@ input[class^="btn-"]:hover {
   opacity: 0.5;
   text-decoration: none;
 }
+a.isDisabled:hover {
+  background: $light-color;
+}

@@ -29,7 +29,12 @@
                 <p><i class="fas fa-envelope"></i> Email:</p>
                 <p>
                   <span class="white-text">_</span>
-                  alex.butnaru1102@gmail.com
+                  <a
+                    href="mailto:alex.butnaru1102@gmail.com"
+                    target="_blank"
+                    id="no-transform"
+                    >alex.butnaru1102@gmail.com
+                  </a>
                 </p>
               </div>
               <div class="flex-contact-items">
@@ -39,7 +44,7 @@
             </li>
           </ul>
           <ul class="nav-links">
-            <li><a href="#header-home" class="current">Home</a></li>
+            <li><a href="#header-home">Home</a></li>
             <li><a href="#home-about">About</a></li>
             <li><a href="#home-projects">Work</a></li>
             <li><a href="#home-contact">Contact</a></li>
@@ -80,7 +85,7 @@
           </p>
           <div class="buttons flex-buttons">
             <a href="#home-projects" class="btn-light">View My Work</a>
-            <a href="#" class="btn-light">View My Resume</a>
+            <a class="btn-light isDisabled">View My Resume</a>
           </div>
         </div>
       </div>
@@ -349,27 +354,40 @@
         <h2 class="section-title">Contact</h2>
         <div class="bottom-line"></div>
         <p class="lead">Have a question or want to work together?</p>
-        <form class="text-fields">
+        <form
+          class="text-fields"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
+        >
           <div>
             <input
               type="text"
               class="text-input name-input"
               placeholder="Name"
+              name="name"
             />
             <input
               type="text"
               class="text-input subject-input"
               placeholder="Subject"
+              name="subject"
             />
             <input
               type="email"
               class="text-input email-input"
               placeholder="Email Address"
+              name="email"
             />
             <textarea
               class="text-input message-input"
               placeholder="Enter Message"
+              name="message"
             ></textarea>
+          </div>
+          <div class="my-2">
+            <div data-netlify-recaptcha="true"></div>
           </div>
           <button type="submit" class="btn-dark">Submit</button>
         </form>

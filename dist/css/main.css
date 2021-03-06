@@ -110,6 +110,10 @@ input[class^="btn-"]:hover {
   text-decoration: none;
 }
 
+a.isDisabled:hover {
+  background: #f4f4f4;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -257,11 +261,12 @@ img {
   transition: all 0.5s;
 }
 
-#main-nav a:hover {
-  border-color: #ccc;
+#main-nav a#no-transform {
+  text-transform: none;
+  padding-bottom: 0.25rem;
 }
 
-#main-nav a.current {
+#main-nav a:hover {
   border-color: #5eaff1;
 }
 

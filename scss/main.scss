@@ -105,11 +105,11 @@ img {
     padding-bottom: 0.5rem;
     transition: all 0.5s;
 
-    &:hover {
-      border-color: $medium-color;
+    &#no-transform {
+      text-transform: none;
+      padding-bottom: 0.25rem;
     }
-
-    &.current {
+    &:hover {
       border-color: $main-color;
     }
   }
