@@ -111,13 +111,17 @@ img {
 
 // Home Sections
 #home {
-  &-a {
+  &-projects {
     .container {
       padding-bottom: 2rem;
       border-bottom: 3px solid $main-color;
     }
   }
-  &-b {
+  &-about {
+    .container {
+      padding-bottom: 2rem;
+      border-bottom: 3px solid $main-color;
+    }
     .priorities {
       margin-top: 3rem;
       display: grid;
@@ -130,7 +134,7 @@ img {
       }
     }
   }
-  &-c {
+  &-contact {
     .text-fields {
       div {
         width: 50%;
@@ -171,12 +175,18 @@ img {
     }
   }
 
-  &-d {
+  &-contact2 {
     .contact-info {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       text-align: center;
     }
+  }
+
+  &-tagline {
+    text-align: center;
+    font-size: 2rem;
+    color: set-text-color($main-color);
   }
 }
 
@@ -195,6 +205,9 @@ img {
     height: 5rem;
 
     .social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       a {
         color: #fff;
       }
@@ -207,7 +220,6 @@ img {
         line-height: 20px;
         text-align: center;
         padding: 0.5rem;
-        margin-left: 1.5rem;
         transition: all 0.35s ease-in-out;
 
         &:hover {

@@ -256,24 +256,29 @@ img {
   opacity: 0.85;
 }
 
-#home-a .container {
+#home-projects .container {
   padding-bottom: 2rem;
   border-bottom: 3px solid #5eaff1;
 }
 
-#home-b .priorities {
+#home-about .container {
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #5eaff1;
+}
+
+#home-about .priorities {
   margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
 
-#home-b .priorities .fa-2x {
+#home-about .priorities .fa-2x {
   color: #5eaff1;
   padding-bottom: 0.4rem;
 }
 
-#home-c .text-fields div {
+#home-contact .text-fields div {
   width: 50%;
   margin: auto;
   display: flex;
@@ -282,7 +287,7 @@ img {
   gap: 0.5rem;
 }
 
-#home-c .text-fields div .text-input {
+#home-contact .text-fields div .text-input {
   padding: 0.5rem 1rem;
   background: #333;
   border: none;
@@ -290,27 +295,33 @@ img {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#home-c .text-fields div .text-input::placeholder {
+#home-contact .text-fields div .text-input::placeholder {
   color: #ccc;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#home-c .text-fields div .text-input:focus {
+#home-contact .text-fields div .text-input:focus {
   outline-color: #5eaff1;
 }
 
-#home-c .text-fields div .message-input {
+#home-contact .text-fields div .message-input {
   height: 100px;
 }
 
-#home-c button[type="submit"] {
+#home-contact button[type="submit"] {
   width: 25%;
 }
 
-#home-d .contact-info {
+#home-contact2 .contact-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
+}
+
+#home-tagline {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
 }
 
 #main-footer {
@@ -328,6 +339,12 @@ img {
   height: 5rem;
 }
 
+#main-footer .footer-content .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #main-footer .footer-content .social a {
   color: #fff;
 }
@@ -341,7 +358,6 @@ img {
   line-height: 20px;
   text-align: center;
   padding: 0.5rem;
-  margin-left: 1.5rem;
   transition: all 0.35s ease-in-out;
 }
 
