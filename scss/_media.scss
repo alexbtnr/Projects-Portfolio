@@ -23,6 +23,11 @@
   }
   #main-nav {
     #image-link {
+      &:hover {
+        //   transform: rotate(180deg);
+        transform: none;
+      }
+
       align-self: flex-start;
       margin-right: 3rem;
     }

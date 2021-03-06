@@ -506,6 +506,9 @@ img {
     align-self: flex-start;
     margin-right: 3rem;
   }
+  #main-nav #image-link:hover {
+    transform: none;
+  }
   #main-nav li {
     padding: 1rem;
   }
