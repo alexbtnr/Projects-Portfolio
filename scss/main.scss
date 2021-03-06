@@ -12,6 +12,7 @@ body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
   background: #fff;
+  font-size: 1.1rem;
 }
 
 a {
@@ -77,7 +78,6 @@ img {
     justify-content: center;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    font-size: 0.9rem;
 
     .flex-contact-items {
       display: flex;
@@ -147,6 +147,15 @@ img {
           opacity: 0.85;
         }
       }
+
+      .flex-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+          margin: 0 2rem;
+        }
+      }
     }
   }
 
@@ -167,6 +176,45 @@ img {
     .container {
       padding-bottom: 2rem;
       border-bottom: 3px solid $main-color;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      // grid-gap: 1rem;
+
+      #home-about-a {
+        border-right: 3px solid $main-color;
+        padding-right: 3rem;
+      }
+      #home-about-b {
+        // border-left: 2px solid $main-color;
+        padding-left: 3rem;
+
+        p {
+          padding-bottom: 1rem;
+        }
+        ul {
+          // display: flex;
+          // justify-content: center;
+          // align-items: center;
+          li {
+            // padding: 0.5rem;
+          }
+        }
+        ul {
+          padding: 1.5rem;
+          width: 80%;
+          display: grid;
+          margin: auto;
+          grid-template-columns: repeat(6, 1fr);
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+
+        .btn-dark {
+          margin-left: 0.5rem;
+          padding: 0.4rem 0.8rem;
+        }
+      }
     }
     .priorities {
       margin-top: 3rem;

@@ -170,6 +170,7 @@ body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
   background: #fff;
+  font-size: 1.1rem;
 }
 
 a {
@@ -230,7 +231,6 @@ img {
   justify-content: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-size: 0.9rem;
 }
 
 #main-nav ul#flex-contact .flex-contact-items {
@@ -298,6 +298,16 @@ img {
   opacity: 0.85;
 }
 
+#header-home .header-content .flex-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-home .header-content .flex-buttons a {
+  margin: 0 2rem;
+}
+
 #home-projects .container {
   padding-bottom: 2rem;
   border-bottom: 3px solid #5eaff1;
@@ -306,6 +316,37 @@ img {
 #home-about .container {
   padding-bottom: 2rem;
   border-bottom: 3px solid #5eaff1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#home-about .container #home-about-a {
+  border-right: 3px solid #5eaff1;
+  padding-right: 3rem;
+}
+
+#home-about .container #home-about-b {
+  padding-left: 3rem;
+}
+
+#home-about .container #home-about-b p {
+  padding-bottom: 1rem;
+}
+
+#home-about .container #home-about-b ul {
+  padding: 1.5rem;
+  width: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home-about .container #home-about-b .btn-dark {
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.8rem;
 }
 
 #home-about .priorities {
