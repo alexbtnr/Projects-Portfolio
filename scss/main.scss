@@ -71,6 +71,26 @@ img {
     display: flex;
   }
 
+  ul#flex-contact {
+    // display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.9rem;
+
+    .flex-contact-items {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      padding: 0.15rem 0;
+
+      .white-text {
+        color: transparent;
+      }
+    }
+  }
+
   li {
     padding: 1rem 1.5rem;
   }
