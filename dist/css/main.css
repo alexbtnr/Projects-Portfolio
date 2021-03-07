@@ -413,6 +413,7 @@ img {
 #home-contact .text-fields #center-recaptcha div.g-recaptcha {
   margin: 0 auto;
   display: inline-block;
+  padding-right: 100%;
 }
 
 #home-contact button[type="submit"] {
