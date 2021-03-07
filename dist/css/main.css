@@ -406,6 +406,13 @@ img {
   height: 100px;
 }
 
+#home-contact .text-fields #recaptcha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 #home-contact button[type="submit"] {
   width: 25%;
 }

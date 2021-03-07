@@ -1,9 +1,11 @@
-const links = document.querySelectorAll("#main-nav a");
+const links = document.querySelectorAll("#main-nav .nav-links a");
 const btn = document.querySelector('.header-content a');
+const img = document.querySelector('#main-nav #image-link');
 
 
 btn.addEventListener('click', clickHandler);
- 
+img.addEventListener('click', clickHandler);
+
 for (const link of links) {
   link.addEventListener("click", clickHandler);
 }

@@ -273,6 +273,13 @@ img {
           height: 100px;
         }
       }
+
+      #recaptcha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
     }
 
     button[type="submit"] {
