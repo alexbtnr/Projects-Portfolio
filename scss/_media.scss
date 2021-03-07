@@ -1,5 +1,14 @@
 // Tablets & Smaller
 @media (max-width: 800px) {
+  #center-recaptcha {
+    .g-recaptcha {
+      div {
+        div {
+          margin-right: 50% !important;
+        }
+      }
+    }
+  }
   #header-home {
     height: 30rem;
 
@@ -40,15 +49,6 @@
 // Smartphones
 @media (max-width: 700px) {
   body {
-    #center-recaptcha {
-      .g-recaptcha {
-        div {
-          div {
-            margin-right: 50% !important;
-          }
-        }
-      }
-    }
     #main-nav {
       .nav-links {
         // background: red !important;
