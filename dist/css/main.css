@@ -406,10 +406,8 @@ img {
   height: 100px;
 }
 
-#home-contact .text-fields .g-recaptcha {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#home-contact .text-fields .g-recaptcha div:first-child {
+  margin: auto;
 }
 
 #home-contact button[type="submit"] {

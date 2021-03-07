@@ -273,10 +273,8 @@ img {
           height: 100px;
         }
       }
-      .g-recaptcha {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      .g-recaptcha div:first-child {
+        margin: auto;
       }
     }
 
