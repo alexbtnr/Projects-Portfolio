@@ -406,7 +406,7 @@ img {
   height: 100px;
 }
 
-#home-contact .text-fields .g-recaptcha div:first-child {
+#home-contact .text-fields div.g-recaptcha > div {
   margin: auto;
   display: block;
 }

@@ -273,7 +273,7 @@ img {
           height: 100px;
         }
       }
-      .g-recaptcha div:first-child {
+      div.g-recaptcha > div {
         margin: auto;
         display: block;
       }
