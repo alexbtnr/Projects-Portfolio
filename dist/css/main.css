@@ -114,6 +114,10 @@ a.isDisabled:hover {
   background: #f4f4f4;
 }
 
+a.btn-dark.isDisabled:hover {
+  background: #333 !important;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

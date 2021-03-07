@@ -116,3 +116,6 @@ input[class^="btn-"]:hover {
 a.isDisabled:hover {
   background: $light-color;
 }
+a.btn-dark.isDisabled:hover {
+  background: $dark-color !important;
+}
