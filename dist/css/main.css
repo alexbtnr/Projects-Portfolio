@@ -407,7 +407,7 @@ img {
 }
 
 #home-contact .text-fields div #recaptcha {
-  align-self: center;
+  align-self: flex-start;
 }
 
 #home-contact button[type="submit"] {
