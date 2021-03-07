@@ -274,11 +274,9 @@ img {
         }
       }
 
-      #recaptcha {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+      div#recaptcha {
+        display: grid;
+        grid-template-columns: 1fr;
       }
     }
 
