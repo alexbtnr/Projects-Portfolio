@@ -40,6 +40,15 @@
 // Smartphones
 @media (max-width: 700px) {
   body {
+    #center-recaptcha {
+      .g-recaptcha {
+        div {
+          div {
+            margin-right: 50% !important;
+          }
+        }
+      }
+    }
     #main-nav {
       .nav-links {
         // background: red !important;
@@ -253,6 +262,15 @@
       &:hover {
         //   transform: rotate(180deg);
         transform: none;
+      }
+    }
+  }
+  #center-recaptcha {
+    .g-recaptcha {
+      div {
+        div {
+          margin-right: 50% !important;
+        }
       }
     }
   }

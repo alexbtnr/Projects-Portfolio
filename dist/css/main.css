@@ -526,6 +526,9 @@ img {
   body {
     overflow-x: hidden;
   }
+  body #center-recaptcha .g-recaptcha div div {
+    margin-right: 50% !important;
+  }
   body #main-nav .nav-links {
     background: rgba(51, 51, 51, 0.95);
   }
@@ -692,6 +695,9 @@ img {
   }
   #header-home #image-link:hover {
     transform: none;
+  }
+  #center-recaptcha .g-recaptcha div div {
+    margin-right: 50% !important;
   }
 }
 
