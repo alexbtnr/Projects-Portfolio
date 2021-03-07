@@ -408,6 +408,7 @@ img {
 
 #home-contact .text-fields .g-recaptcha div:first-child {
   margin: auto;
+  display: block;
 }
 
 #home-contact button[type="submit"] {
