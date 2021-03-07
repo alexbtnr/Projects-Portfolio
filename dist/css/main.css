@@ -407,7 +407,9 @@ img {
 }
 
 #home-contact .text-fields .g-recaptcha {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #home-contact button[type="submit"] {
