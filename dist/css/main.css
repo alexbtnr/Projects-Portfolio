@@ -279,6 +279,7 @@ img {
   width: 25px;
   background: #fff;
   margin: 5px;
+  transition: all 0.3s ease;
 }
 
 #main-nav.top {
@@ -550,6 +551,15 @@ img {
   #main-nav .burger {
     display: block;
     cursor: pointer;
+  }
+  #main-nav .burger.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  #main-nav .burger.toggle .line2 {
+    opacity: 0;
+  }
+  #main-nav .burger.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
   }
   #main-nav .nav-active {
     transform: translateX(0%);
