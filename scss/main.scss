@@ -272,10 +272,9 @@ img {
         .message-input {
           height: 100px;
         }
-
-        &#recaptcha {
-          align-self: flex-start;
-        }
+      }
+      .g-recaptcha {
+        margin: auto;
       }
     }
 

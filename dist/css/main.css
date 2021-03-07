@@ -406,8 +406,8 @@ img {
   height: 100px;
 }
 
-#home-contact .text-fields div#recaptcha {
-  align-self: flex-start;
+#home-contact .text-fields .g-recaptcha {
+  margin: auto;
 }
 
 #home-contact button[type="submit"] {
