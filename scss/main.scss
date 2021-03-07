@@ -274,9 +274,12 @@ img {
         }
       }
 
-      div.g-recaptcha {
-        margin: 0 auto;
-        width: 304px;
+      #center-recaptcha {
+        text-align: center;
+        div.g-recaptcha {
+          margin: 0 auto;
+          display: inline-block;
+        }
       }
     }
 
