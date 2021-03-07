@@ -602,8 +602,8 @@ img {
     border-bottom: 3px solid #5eaff1;
     padding-top: 1rem;
   }
-  #home-about .container ul {
-    grid-template-columns: 1fr;
+  #home-about .container #home-about-b ul {
+    grid-template-columns: repeat(3, 1fr);
   }
   #home-projects .projects {
     grid-template-columns: 1fr;

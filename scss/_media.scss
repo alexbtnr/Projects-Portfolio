@@ -130,9 +130,10 @@
           border-bottom: 3px solid $main-color;
 
           padding-top: 1rem;
-        }
-        ul {
-          grid-template-columns: 1fr;
+
+          ul {
+            grid-template-columns: repeat(3, 1fr);
+          }
         }
       }
     }
