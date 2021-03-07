@@ -273,9 +273,10 @@ img {
           height: 100px;
         }
       }
-      div.g-recaptcha > div {
-        margin: auto;
-        display: block;
+
+      div.g-recaptcha {
+        margin: 0 auto;
+        width: 304px;
       }
     }
 

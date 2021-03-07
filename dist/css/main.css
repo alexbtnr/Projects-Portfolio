@@ -406,9 +406,9 @@ img {
   height: 100px;
 }
 
-#home-contact .text-fields div.g-recaptcha > div {
-  margin: auto;
-  display: block;
+#home-contact .text-fields div.g-recaptcha {
+  margin: 0 auto;
+  width: 304px;
 }
 
 #home-contact button[type="submit"] {
