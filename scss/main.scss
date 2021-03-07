@@ -272,11 +272,10 @@ img {
         .message-input {
           height: 100px;
         }
-      }
 
-      div#recaptcha {
-        display: grid;
-        grid-template-columns: 1fr;
+        #recaptcha {
+          align-self: center;
+        }
       }
     }
 
