@@ -102,6 +102,9 @@
           font-size: 1.5rem;
         }
       }
+      li#disabled-on-pc {
+        display: block !important;
+      }
     }
     .burger {
       display: block;

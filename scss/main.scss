@@ -73,6 +73,12 @@ img {
     display: flex;
   }
 
+  ul.nav-links {
+    li#disabled-on-pc {
+      display: none;
+    }
+  }
+
   ul#flex-contact {
     // display: flex;
     flex-direction: column;

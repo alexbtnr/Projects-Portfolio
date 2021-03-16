@@ -233,6 +233,10 @@ img {
   display: flex;
 }
 
+#main-nav ul.nav-links li#disabled-on-pc {
+  display: none;
+}
+
 #main-nav ul#flex-contact {
   flex-direction: column;
   justify-content: center;
@@ -562,6 +566,9 @@ img {
   #main-nav .nav-links li a {
     color: #fff;
     font-size: 1.5rem;
+  }
+  #main-nav .nav-links li#disabled-on-pc {
+    display: block !important;
   }
   #main-nav .burger {
     display: block;
