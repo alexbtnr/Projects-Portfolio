@@ -408,7 +408,7 @@ img {
 }
 
 #home-contact .text-fields #center-recaptcha div.g-recaptcha {
-  margin: 1rem auto;
+  margin: 1rem auto 1.35rem;
   display: inline-block;
   padding-right: 100%;
 }
