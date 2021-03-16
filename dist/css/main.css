@@ -306,18 +306,6 @@ img {
   line-height: 1.2;
 }
 
-#header-home .header-content span.animate {
-  display: inline-block;
-  transition: all 0.35s ease;
-}
-
-#header-home .header-content span.animate:hover {
-  transform: scale(1.2);
-  margin: 0 0.25rem;
-  padding: 0 0.25rem;
-  opacity: 0.85;
-}
-
 #header-home .header-content .flex-buttons {
   display: flex;
   justify-content: center;

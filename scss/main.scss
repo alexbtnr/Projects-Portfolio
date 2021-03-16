@@ -148,17 +148,17 @@ img {
         line-height: 1.2;
       }
 
-      span.animate {
-        display: inline-block;
-        transition: all 0.35s ease;
+      // span.animate {
+      //   display: inline-block;
+      //   transition: all 0.35s ease;
 
-        &:hover {
-          transform: scale(1.2);
-          margin: 0 0.25rem;
-          padding: 0 0.25rem;
-          opacity: 0.85;
-        }
-      }
+      //   &:hover {
+      //     transform: scale(1.2);
+      //     margin: 0 0.25rem;
+      //     padding: 0 0.25rem;
+      //     opacity: 0.85;
+      //   }
+      // }
 
       .flex-buttons {
         display: flex;
