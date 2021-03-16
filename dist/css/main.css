@@ -378,7 +378,6 @@ img {
   margin: auto;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
   gap: 0.5rem;
 }
 
@@ -409,7 +408,7 @@ img {
 }
 
 #home-contact .text-fields #center-recaptcha div.g-recaptcha {
-  margin: 0 auto;
+  margin: 1rem auto;
   display: inline-block;
   padding-right: 100%;
 }
