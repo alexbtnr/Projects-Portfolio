@@ -113,11 +113,40 @@
 //   }
 // }
 
+#showcase-project {
+  
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    'latest latest latest'
+    'item1 item2 item3'
+  ;
   gap: 2rem;
 
+  #latest-project {
+    grid-area: latest;
+    width: 80%;
+    align-self: center;
+    margin: 0 auto;
+    img {
+      height: 15rem;
+      object-fit: cover;
+      object-position: center center;
+      // width: 50%;
+    }
+  }
+  #project1 {
+    grid-area: item1;
+  }
+  #project2 {
+    grid-area: item2;
+  }
+  #project3 {
+    grid-area: item3;
+  }
   .img-wrap {
     overflow: hidden;
     border: 3px #ccc solid;

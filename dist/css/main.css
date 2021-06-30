@@ -121,7 +121,33 @@ a.btn-dark.isDisabled:hover {
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 'latest latest latest' 'item1 item2 item3';
   gap: 2rem;
+}
+
+.projects #latest-project {
+  grid-area: latest;
+  width: 80%;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.projects #latest-project img {
+  height: 15rem;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.projects #project1 {
+  grid-area: item1;
+}
+
+.projects #project2 {
+  grid-area: item2;
+}
+
+.projects #project3 {
+  grid-area: item3;
 }
 
 .projects .img-wrap {
@@ -643,6 +669,10 @@ img {
   }
   #home-projects .projects {
     grid-template-columns: 1fr;
+    grid-template-areas: 'latest' 'item1' 'item2' 'item3';
+  }
+  #home-projects .projects #latest-project {
+    width: 100%;
   }
   #home-contact .text-fields div {
     width: 100%;

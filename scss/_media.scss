@@ -195,6 +195,15 @@
     &-projects {
       .projects {
         grid-template-columns: 1fr;
+        grid-template-areas: 
+        'latest'
+        'item1'
+        'item2'
+        'item3';
+
+        #latest-project{
+          width: 100%;
+        }
       }
     }
   }

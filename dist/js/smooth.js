@@ -16,7 +16,7 @@ function clickHandler(e) {
   const offsetTop = document.querySelector(href).offsetTop;
  
   scroll({
-    top: offsetTop - 100,
+    top: offsetTop - 50,
     behavior: "smooth"
   });
 };
